@@ -1,0 +1,50 @@
+*{
+    margin:0px;
+    padding:5px;
+    box-sizing: border-box;
+    line-height: 15px;
+    /* height: ; */
+}
+.container{
+    display: grid;
+    background-color: white;
+    grid-template-columns: 30px 1fr 30px;
+    grid-template-rows: 40px;
+}
+#box2{
+   text-align: center;
+}
+#search{
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+}
+.container2{
+    display: grid;
+    background-color: white;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    justify-content:space-around;
+    grid-gap:30px;
+}
+.box-1{
+    border: 1px solid grey;
+}
+#World{
+    font-size: x-small;
+}
+#Nov-12{
+    font-size:xx-small;
+}
+#line{
+  font-size: xx-small;   
+}
+#link1{
+    font-size: xx-small;
+}
+#Nov-11{
+    font-size:xx-small;
+}
+#line2{
+  font-size: xx-small;   
+}
